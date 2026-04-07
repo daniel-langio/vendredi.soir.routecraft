@@ -6,8 +6,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import vendredi.soir.routecraft.PojaGenerated;
-import vendredi.soir.routecraft.repository.DummyRepository;
-import vendredi.soir.routecraft.repository.DummyUuidRepository;
 
 @PojaGenerated
 @RestController
