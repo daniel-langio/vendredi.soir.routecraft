@@ -37,6 +37,9 @@ configurations {
 }
 
 
+springBoot {
+    mainClass = 'vendredi.soir.routecraft.PojaApplication'
+}
 
 test {
     maxParallelForks = Runtime.runtime.availableProcessors().intdiv(2) ?: 1
