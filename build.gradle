@@ -20,6 +20,7 @@ jacoco {
 
 
 repositories {
+maven {url "https://repo.osgeo.org/repository/release/"}
 
     mavenCentral()
 }
@@ -156,6 +157,8 @@ dependencies {
     testImplementation 'org.junit-pioneer:junit-pioneer:2.2.0'
 
 implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+implementation group: 'org.geotools', name: 'gt-shapefile', version: '34-M0'
+implementation "org.locationtech.jts:jts-core:1.19.0"
 
 implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.5.0'
 }
